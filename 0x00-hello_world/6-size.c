@@ -1,13 +1,13 @@
 #include <stdio.h>
  
-  /**
-  * main - Entry point of the program
-  * 
-  * Description: using the main function
-  * Return: Always 0 (Success)
-  */
-  int main(void)
-  {
+/**
+* main - Entry point of the program
+* 
+* Description: using the main function
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
     char c;
     int i;
     long li;
@@ -19,5 +19,5 @@
     print("size of a long: %ld byte(s)\n", size of(long));
     print("size of a long long: %ld byte(s)\n", size of(long long));
     print("size of a float: %ld byte(s)\n", size of(float));
-    Return (0);
-  }
+    return (0);
+}
