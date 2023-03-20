@@ -1,20 +1,15 @@
+#include <stdio.h>
 #include <unistd.h>
 
 /**
-* main - print quote
-*
-* Description print Dora's quote
-* Return: Always 1 (success)
-*/
-int main(void
+ * main - print quote
+ *
+ * Description: prints Dora korpar's quote
+ *
+ * Return: Always 1 (Success)
+ */
 int main(void)
 {
-     char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-     int len = sizeof(str) - 1;
-     ssize_t num_written = write(2, str, len);
-     if (num_written != len) {
-        return 1;
-     }
-     return 0;
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
-
